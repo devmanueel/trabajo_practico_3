@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>Programacion en Java</title>
@@ -7,8 +7,9 @@
 
 <body>
 	<header>
-		<h1>PROGRAMANDO CON JAVA</h1>
 		
+		<h1>PROGRAMANDO CON JAVA</h1>
+		<img alt="gmail" src="../imagenes/logoJAVA.png" width="60px" height ="60px">
 		<!-- MENU DE NAVEGACION  -->
 		<nav>
 			<a href="index.html">Datos en Java</a>
@@ -41,7 +42,7 @@
 					<tr>
 			            <th>Nombre</th>
 			            <th>Declaracion</th>
-			            <th>Descripcion</th>
+			            <th>Nomenclatura de Metodos</th>
 			        </tr>
 				</thead>
 						
@@ -85,16 +86,12 @@
 				</tbody>
 				
 				<tfoot>
+				
 				</tfoot>
-				
-				
-				
+
 			</table>
 			
-		</section>
-			
-		<section>
-			<h2>Tipos de Datos en Java</h2>
+				<h2>Tipos de Datos en Java</h2>
 			<h3>Los tipos Referendia</h3>
 			<p>En Java, los objetos se crean (instancian) a partir de clases y en ese momento se almacenan en
 			espacios de memoria. Java gestiona la dirección en memoria de estos objetos. Para acceder a
@@ -107,24 +104,59 @@
 			mencionadas en la oración precedente. Más detalles sobre el funcionamiento en memoria de
 			las referencias se verán más adelante. </p>
 			
-			
-			
 		</section>
 		
+		<br/>
 		<section>
 		
 			<h2>¿Que Son los Metodos?</h2>
 			<h3>Los métodos: </h3>
-			<p> s son las secciones de una clase destinadas a la
+			<p> Son las secciones de una clase destinadas a la
 			codificación de los algoritmos. Por lo tanto, el objetivo de un método es ejecutar un algoritmo
 			o porción de código. </p>
+			<h3>Estructura General: </h3>
+			<img alt="metodo" src="../imagenes/metodos visual java tp3.PNG"> 
+			<h3>Donde: </h3>
+			<ul>
+				<li>Especificaciones: Opcional. Define el modificador de acceso del método (public, private, protected o default si no se especifica). Normalmente se usa "public", lo que permite que el método sea accesible desde cualquier entidad que lo requiera.</li>
+				<li>tipoDevuelto: Obligatorio. Indica si el método devuelve un valor y, en caso afirmativo, el tipo de dato que devuelve. Se utiliza "void" si el método no devuelve ningún valor.</li>
+				<li>Lista de parámetros: Obligatorio. Es el nombre que identifica al método y describe qué hace el algoritmo dentro del mismo.</li>
+				<li>throws listaExcepciones: Opcional. Se encuentra entre paréntesis después del nombre del método y consiste en una lista de parámetros separados por comas. Cada parámetro especifica su tipo y nombre. Los paréntesis son obligatorios incluso si el método no recibe parámetros.</li>
+				<li>Instrucciones: Opcional. Indica las excepciones que el método puede generar y manejar.
+					Instrucciones: Todo el código entre las llaves del método. Se utiliza para escribir las instrucciones que el método ejecutará.</li>
+				<li>return: Se utiliza para devolver un valor del método. Debe seguirse de una expresión que será evaluada y cuyo tipo coincidirá con "tipoDevuelto". Si el método no devuelve ningún valor (tipoDevuelto = void), no es necesaria la instrucción return.</li>
+			</ul>
 			
 		</section>
+		
+		<section>
+			<h2>NOMENCLATURA</h2>
+			<h3>Nomenclatura para la definición de nombres de métodos: </h3>
+			<ol>
+				<li>Los nombres de los métodos deben ser verbos en infinitivo (terminación ar, er o ir).</li>
+				<li>La primera letra del nombre del método debe ser escrita en minúscula.</li>
+				<li>El resto de la palabra debe ser escrita en minúscula.</li>
+				<li>En caso de conformar el nombre del método con varias palabras se indica la distinción
+					de cada una de ellas con su primera letra en mayúscula.</li>
+			</ol>
+			
+		</section>
+		
+		<aside>
+		<h2>RESUMEN BREVE DE JAVA </h2>
+		<h3>Mas informacion Click en la Imagen Esto lo llevara a la Documentacion de Java</h3>
+		<a href="https://www.oracle.com/java/technologies/javase-documentation.html" target =“_blank”><img alt="aside de JAVA" src="../imagenes/java.jpg" width="450px" height ="460px"> </a>
+		
+		</aside>
 		
 	</main>
 	
 	<footer>
-	pie de pagina
+		<h3>Quienes Somos</h3>
+		<img alt="gmail" src="../imagenes/logomail.png" width="30px" height ="30px"> manuumendozaa05@gmail.com 
+		<a href="https://www.facebook.com/manuelsantiago.mendoza.56/" target =“_blank”><img alt="facebook" src="../imagenes/logoFacebook.png" width="30px" height ="30px"> Facebook</a>
+		<a href="https://www.linkedin.com/in/manuel-santiago-mendoza-354224237/" target =“_blank”><img alt="facebook" src="../imagenes/linkeding.png" width="30px" height ="30px"> Linkeding</a>
+		<a href="https://www.instagram.com/p/B2pxvKsgGU7/" target =“_blank”><img alt="facebook" src="../imagenes/instagram logo.jpg" width="30px" height ="30px"> Instagram</a>				
 	</footer>
 	
 </body>
