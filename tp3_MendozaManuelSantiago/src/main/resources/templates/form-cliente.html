@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+<link rel="stylesheet" href="/css/styles.css"></link>
+
+
+</head>
+<body>
+
+	<header>
+		<h1>Registrese en Nuestra pagina web</h1>
+		<img alt="gmail" src="../imagenes/logoJAVA.png" width="60px" height ="60px">
+		<!-- MENU DE NAVEGACION  -->
+		<nav>
+			<a href="">Inicio</a>
+			<br/>
+			<a href="">Quienes somos</a>
+		</nav>
+	</header>
+	
+	<main>
+		<h1>Formulario de Datos</h1>
+		<form action="">
+			<label for="dni" >DNI: </label>
+			<input id="dni" type="number" required placeholder="Ingrese el DNI" name="dni"></input><br>
+			<label for="nombres">Nombres: </label>
+			<input id="nombres" type="text" required placeholder="Ingrese sus Nombres" name="Nombres"></input><br>
+			<label for="apellidos">Apellidos: </label>
+			<input id="apellidos" type="text" required placeholder="Ingrese su Apellido" name="Apellidos"></input><br>
+			<label for="fechaNacimiento">Fecha de Nacimiento: </label>
+			<input id="fechaNacimiento" type="date" required placeholder="Ingrese su fecha de nacimiento" name="fechaNaciemiento"></input><br>
+			
+			<div>
+				<label>GENERO: </label><br>
+				<label for="generoM">Masculino </label>
+				<input id="generoM" type="radio" required name="genero"></input>
+				<label for="generoF">Femenino </label>
+				<input id="generoF" type="radio" required name="genero"></input>
+				<label for="generoX">X </label>
+				<input id="generoX" type="radio" required name="genero"></input><br>
+				<br>
+			</div>
+			
+			<label for="correoElectronico">Correo Electronico: </label>
+			<input id="correoElectronico" type="email" required name="Correo Electronico" placeholder="Ingrese su Correo"></input><br>
+			<label for="domicilio">Domicilio: </label>
+			<input id="domicilio" type="text" required name="Domicilio" placeholder="Ingrese su  domicilio"></input><br>	
+			<label for="correoElectronico">Provincia: </label>
+			<select>
+				<option value="jujuy"> Jujuy</option>
+				<option value="salta" selected> Salta</option>
+				<option value="Tucuman"> Tucuman</option>
+				<option value="Chaco"> Chaco</option>
+				<option value="Mendoza"> Mendoza</option>
+			</select><br>
+			<label for="correoElectronico">Telefono Celular: </label>
+			<input id="correoElectronico" type="number" required name="correo" placeholder="Ingrese Telefono Celular"></input> <br>	
+			<label> Categoria de Interes: </label>
+						
+			<div>
+				<label for="gastronomia" >Gastronomia</label>
+				<input id="gastronomia" name="interes" type="checkbox"></input>
+				<label for="turismo">Turismo</label>
+				<input id="turismo" name="interes" type="checkbox"></input>
+				<label for="eventos">Eventos</label>
+				<input id="eventos" name="interes" type="checkbox"></input>
+				<label for="Exposicion">Exposiciones</label> 
+				<input id="Exposicion" name="interes" type="checkbox"></input>
+				
+			</div>
+
+			<label for= "sugerencias">Sugerencias: </label> <br>
+			<textarea id ="sugerencias" placeholder="Ingrease Comentarios" name="Sujerencias" rows="8" cols="40"></textarea> <br>
+			<label id="password">Password: </label>
+			<input id="password" type="password" required name="contraseña" placeholder="Ingrese Contraseña" maxlength="10" min="2"></input> <br>
+			<label id="passwordN">Password Nuevamente: </label>
+			<input id="passwordN" type="password" required name="contraseña" placeholder="Ingrese Contraseña Nuevamente:" maxlength="10" ></input> <br>			
+			
+			<br>
+			
+			<label for="terminosyCondiciones">Acepto los términos y condiciones</label>
+			<input id="terminosyCondiciones" name="interes" type="checkbox" required></input> <br>
+			<label for="Informacion">Acepto recibir información relativa a la empresa</label> 
+			<input id="Informacion" name="interes" type="checkbox" required ></input><br>
+			
+			<input type="button" value="cancelar"></input>
+			<input type="submit" value="guardar"></input>
+			
+			
+			
+		</form>
+	</main>
+	
+	<footer >
+		<h3>Quienes Somos</h3>
+		<img alt="gmail" src="../imagenes/logomail.png" width="30px" height ="30px"> manuumendozaa05@gmail.com 
+		<a href="https://www.facebook.com/manuelsantiago.mendoza.56/" target =“_blank”><img alt="facebook" src="../imagenes/logoFacebook.png" width="30px" height ="30px"> Facebook</a>
+		<a href="https://www.linkedin.com/in/manuel-santiago-mendoza-354224237/" target =“_blank”><img alt="facebook" src="../imagenes/linkeding.png" width="30px" height ="30px"> Linkeding</a>
+		<a href="https://www.instagram.com/p/B2pxvKsgGU7/" target =“_blank”><img alt="facebook" src="../imagenes/instagram logo.jpg" width="30px" height ="30px"> Instagram</a>				
+	</footer>
+</body>
+</html>
