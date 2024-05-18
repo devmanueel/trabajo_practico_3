@@ -8,21 +8,29 @@
 
 </head>
 <body>
-
-	<header>
-		<h1>Registrese en Nuestra pagina web</h1>
-		<img alt="gmail" src="../imagenes/logoJAVA.png" width="60px" height ="60px">
-		<!-- MENU DE NAVEGACION  -->
+<!-- MENU DE NAVEGACION  -->
+	<header class="header">
+		<div class="logo">
+			
+			<img alt="logoJava" src="../imagenes/java.png" width="60px" height ="60px">
+			<h1>Formulario java </h1>
+		</div>
+		
 		<nav>
-			<a href="">Inicio</a>
-			<br/>
-			<a href="">Quienes somos</a>
+			<ul class="nav-links">
+				<li><a href="" class="btn_Iicio">Inicio</a><li/>
+				<li><a href="#footer" class="btn_QS">Quienes Somos</a><li/>
+			</ul>
 		</nav>
 	</header>
 	
-	<main>
-		<h1>Formulario de Datos</h1>
+<!-- MENU Prinpical Formulario  -->
+	<main id="cuerpoPrincipal">
+		
 		<form action="">
+		<h1>Bienvenido</h1>
+		<div class="input-group">
+		
 			<label for="dni" >DNI: </label>
 			<input id="dni" type="number" required placeholder="Ingrese el DNI" name="dni"></input><br>
 			<label for="nombres">Nombres: </label>
@@ -85,20 +93,26 @@
 			<label for="Informacion">Acepto recibir información relativa a la empresa</label> 
 			<input id="Informacion" name="interes" type="checkbox" required ></input><br>
 			
-			<input type="button" value="cancelar"></input>
-			<input type="submit" value="guardar"></input>
-			
-			
+			<div class="button-container">
+				<input class="btn_Cancelar" type="button" value="Cancelar"></input>
+				<input class="btn_Guardar" type="submit" value="Guardar"></input>
+			</div>
+		</div>	
 			
 		</form>
 	</main>
 	
-	<footer >
-		<h3>Quienes Somos</h3>
-		<img alt="gmail" src="../imagenes/logomail.png" width="30px" height ="30px"> manuumendozaa05@gmail.com 
-		<a href="https://www.facebook.com/manuelsantiago.mendoza.56/" target =“_blank”><img alt="facebook" src="../imagenes/logoFacebook.png" width="30px" height ="30px"> Facebook</a>
-		<a href="https://www.linkedin.com/in/manuel-santiago-mendoza-354224237/" target =“_blank”><img alt="facebook" src="../imagenes/linkeding.png" width="30px" height ="30px"> Linkeding</a>
-		<a href="https://www.instagram.com/p/B2pxvKsgGU7/" target =“_blank”><img alt="facebook" src="../imagenes/instagram logo.jpg" width="30px" height ="30px"> Instagram</a>				
+	<footer id="footer">
+		<h3 class="footer_title">Quienes Somos</h3>
+		<div class="container_Futer">
+		
+			<a href="https://www.facebook.com/manuelsantiago.mendoza.56/" target =“_blank”><img alt="facebook" src="../imagenes/logoFacebook.png" width="30px" height ="30px"> Facebook</a>
+			<a href="https://www.linkedin.com/in/manuel-santiago-mendoza-354224237/" target =“_blank”><img alt="facebook" src="../imagenes/linkeding.png" width="30px" height ="30px"> Linkeding</a>
+			<a href="https://www.instagram.com/p/B2pxvKsgGU7/" target =“_blank”><img alt="facebook" src="../imagenes/instagramlogo.png" width="30px" height ="30px"> Instagram</a><br>
+						
+		</div>
+		<img alt="gmail" src="../imagenes/correo.png" width="30px" height ="30px" > manuumendozaa05@gmail.com
+		<p class="desciptionF">2024 Mendoza Manuel Santiago LU:4236 | Todos los derechos Reservados</p> 	
 	</footer>
 </body>
 </html>
