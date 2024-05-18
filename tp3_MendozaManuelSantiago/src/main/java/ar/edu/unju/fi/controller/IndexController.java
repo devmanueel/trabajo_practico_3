@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class IndexController {
-	@GetMapping({"/index","/home","/","/inicio"}) //indica en la raiz del servidor
+	@GetMapping({"/index","/home","/","/inicio","/index.html"}) //indica en la raiz del servidor
 	
 	public String getIndex() {
 		return "index";
